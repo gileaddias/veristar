@@ -54,7 +54,7 @@ main {
 header {
     background-color: brown;
     color: white;
-    display: inline flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     align-content: center;
@@ -65,11 +65,26 @@ h1 {
 }
 .topo {
     background-color: #000000;
+    height: 100px;
+    width: 100%;
 }
-.tree {
-    image-resolution: 20px;
+
+h2 {
+background-color: blueviolet;
+}
+
+.motivos {
+    background-color: blue;
 }
 
 footer {
-    background-color: aliceblue;
+    margin: auto;
+    padding: auto;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    text-align: start;
 }
+
+
